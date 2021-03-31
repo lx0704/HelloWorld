@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''sh "ls -lh"
-sh "vim init.txt"'''
+        sh 'sh "vim init.txt"'
       }
     }
 
